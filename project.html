@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>Capstone Project Template</title>
+<title>project</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13590,18 +13590,12 @@ root
 </div>
 
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#### Assessing US demographics data</span>
-</pre></div>
-
-    </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Assessing-US-demographics-data">Assessing US demographics data<a class="anchor-link" href="#Assessing-US-demographics-data">&#182;</a></h4>
 </div>
 </div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -14429,8 +14423,7 @@ root
 <li>airport_municipality: place where airport of arrival is located</li>
 </ul>
 <p>Currently it has data of 2016. It can be udpated by appending new rows to it for representing the data when the new data about visitor becomes available. This table can potentially contain millions of rows representing facts and therefore can be seen as a Fact table. Location of airport will be added in column <code>airport_municipality</code> to allow performing aggregation during analytical queries over that attribute as well as joining it with <code>temperatures</code> table while doing statistical analysis of average city temperatures with immigration patterns.</p>
-<h4 id="Map-of-Data-Pipelines">Map of Data Pipelines<a class="anchor-link" href="#Map-of-Data-Pipelines">&#182;</a></h4><p>List the steps necessary to pipeline the data into the chosen data model
-Following are the steps to be performed in the data pipelines to create tables in the model described above.</p>
+<h4 id="Map-of-Data-Pipelines">Map of Data Pipelines<a class="anchor-link" href="#Map-of-Data-Pipelines">&#182;</a></h4><p>Following are the steps to be performed in the data pipelines to create tables in the model described above.</p>
 <ol>
 <li>Airports data is stored in CSV file. It will be read into a Spark dataframe and performed upon necessary transformations to prepare table <code>airports_in_usa</code> and load it as Parquet file format as a Dimension table in our data model.</li>
 <li>Temperatures data is stored in CSV file. It will be read into a Spark dataframe and performed upon necessary transformations to prepare table <code>temperatures</code> and load it as Parquet file format as a Fact table in our data model.</li>
