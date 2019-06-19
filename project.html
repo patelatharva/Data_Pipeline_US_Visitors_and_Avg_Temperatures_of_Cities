@@ -13142,7 +13142,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -13175,7 +13175,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span>	
@@ -13192,7 +13192,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">immigration_data</span> <span class="o">=</span> <span class="n">spark</span><span class="o">.</span><span class="n">read</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s1">&#39;com.github.saurfang.sas.spark&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s1">&#39;../../data/18-83510-I94-Data-2016/i94_apr16_sub.sas7bdat&#39;</span><span class="p">)</span>
@@ -13234,7 +13234,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">temp_data</span> <span class="o">=</span> <span class="n">spark</span><span class="o">.</span><span class="n">read</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s2">&quot;csv&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">option</span><span class="p">(</span><span class="s2">&quot;header&quot;</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s2">&quot;../../data2/GlobalLandTemperaturesByCity.csv&quot;</span><span class="p">)</span>
@@ -13276,7 +13276,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">ap_data</span> <span class="o">=</span> <span class="n">spark</span><span class="o">.</span><span class="n">read</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s2">&quot;csv&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">option</span><span class="p">(</span><span class="s2">&quot;header&quot;</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s2">&quot;airport-codes_csv.csv&quot;</span><span class="p">)</span>
@@ -13318,7 +13318,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dem_data</span> <span class="o">=</span> <span class="n">spark</span><span class="o">.</span><span class="n">read</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s2">&quot;csv&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">option</span><span class="p">(</span><span class="s2">&quot;header&quot;</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">option</span><span class="p">(</span><span class="s2">&quot;delimiter&quot;</span><span class="p">,</span> <span class="s2">&quot;;&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s2">&quot;us-cities-demographics.csv&quot;</span><span class="p">)</span>
@@ -13374,7 +13374,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">ap_data</span> <span class="o">=</span> <span class="n">spark</span><span class="o">.</span><span class="n">read</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s2">&quot;csv&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">option</span><span class="p">(</span><span class="s2">&quot;header&quot;</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s2">&quot;airport-codes_csv.csv&quot;</span><span class="p">)</span>
@@ -13424,7 +13424,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">us_ap_data</span> <span class="o">=</span> <span class="n">ap_data</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">ap_data</span><span class="p">[</span><span class="s2">&quot;iso_country&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;US&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">ap_data</span><span class="p">[</span><span class="s2">&quot;iata_code&quot;</span><span class="p">]</span> <span class="o">!=</span> <span class="s2">&quot;null&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">selectExpr</span><span class="p">(</span><span class="s2">&quot;iata_code&quot;</span><span class="p">,</span> <span class="s2">&quot;municipality&quot;</span><span class="p">)</span>
@@ -13473,7 +13473,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">temp_data</span> <span class="o">=</span> <span class="n">spark</span><span class="o">.</span><span class="n">read</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s2">&quot;csv&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">option</span><span class="p">(</span><span class="s2">&quot;header&quot;</span><span class="p">,</span> <span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="s2">&quot;../../data2/GlobalLandTemperaturesByCity.csv&quot;</span><span class="p">)</span>
@@ -13528,7 +13528,7 @@ Here is how this data can be processed during transformation stage of pipeline:<
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_datetime</span><span class="p">(</span><span class="n">date_string</span><span class="p">):</span>
@@ -13599,7 +13599,7 @@ root
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dem_data</span><span class="o">.</span><span class="n">printSchema</span><span class="p">()</span>
@@ -13669,7 +13669,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">valid_dem_data</span> <span class="o">=</span> <span class="n">dem_data</span><span class="o">.</span><span class="n">withColumnRenamed</span><span class="p">(</span><span class="s2">&quot;State Code&quot;</span><span class="p">,</span> <span class="s2">&quot;state_code&quot;</span><span class="p">)</span> \
@@ -13747,7 +13747,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">immigration_data</span><span class="o">.</span><span class="n">printSchema</span><span class="p">()</span>
@@ -13819,7 +13819,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">immigration_data</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">immigration_data</span><span class="p">[</span><span class="s2">&quot;i94port&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;XXX&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
@@ -13835,7 +13835,7 @@ only showing top 5 rows
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[28]:</div>
+    <div class="prompt output_prompt">Out[14]:</div>
 
 
 
@@ -13860,7 +13860,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">immigration_data</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">F</span><span class="o">.</span><span class="n">isnull</span><span class="p">(</span><span class="n">F</span><span class="o">.</span><span class="n">col</span><span class="p">(</span><span class="s2">&quot;i94addr&quot;</span><span class="p">)))</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
@@ -13876,7 +13876,7 @@ only showing top 5 rows
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[29]:</div>
+    <div class="prompt output_prompt">Out[15]:</div>
 
 
 
@@ -13901,7 +13901,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">immigration_data</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">F</span><span class="o">.</span><span class="n">isnull</span><span class="p">(</span><span class="n">F</span><span class="o">.</span><span class="n">col</span><span class="p">(</span><span class="s2">&quot;visatype&quot;</span><span class="p">)))</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
@@ -13917,7 +13917,7 @@ only showing top 5 rows
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[30]:</div>
+    <div class="prompt output_prompt">Out[16]:</div>
 
 
 
@@ -13934,7 +13934,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">immigration_data</span><span class="o">.</span><span class="n">selectExpr</span><span class="p">(</span><span class="s2">&quot;visatype&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">distinct</span><span class="p">()</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
@@ -14003,7 +14003,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_date</span><span class="p">(</span><span class="n">sas_numeric_date</span><span class="p">):</span>
@@ -14444,7 +14444,7 @@ root
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">extract_temperature_data</span><span class="p">():</span>
@@ -14458,7 +14458,7 @@ root
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">transform_temperature_data</span><span class="p">(</span><span class="n">temp_data</span><span class="p">):</span>
@@ -14490,7 +14490,7 @@ root
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">load_temperature_data</span><span class="p">(</span><span class="n">df</span><span class="p">):</span>
@@ -14504,7 +14504,7 @@ root
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[71]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">temp_data_raw</span> <span class="o">=</span> <span class="n">extract_temperature_data</span><span class="p">()</span>
@@ -14519,7 +14519,7 @@ root
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[70]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">extract_airports_data</span> <span class="p">():</span>
@@ -14538,7 +14538,7 @@ root
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">ap_data_raw</span> <span class="o">=</span> <span class="n">extract_airports_data</span><span class="p">()</span>
@@ -14553,7 +14553,7 @@ root
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[45]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">extract_demographics_data</span><span class="p">():</span>
@@ -14588,7 +14588,7 @@ root
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[46]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dem_data_raw</span> <span class="o">=</span> <span class="n">extract_demographics_data</span><span class="p">()</span>
@@ -14603,7 +14603,7 @@ root
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">extract_immigration_data</span> <span class="p">(</span><span class="n">month</span><span class="p">,</span> <span class="n">year</span><span class="p">):</span>
@@ -14940,7 +14940,7 @@ root
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[72]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">immigration_table</span> <span class="o">=</span> <span class="kc">None</span>
@@ -14970,7 +14970,7 @@ root
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[73]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">enriched_immigration_table</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
@@ -15011,10 +15011,10 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">enriched_immigration_table</span><span class="o">.</span><span class="n">write</span><span class="o">.</span><span class="n">parquet</span><span class="p">(</span><span class="n">path</span><span class="o">=</span><span class="s2">&quot;us_visitors.parquet&quot;</span><span class="p">,</span> <span class="n">partitionBy</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;arrival_year&quot;</span><span class="p">,</span> <span class="s2">&quot;arrival_month&quot;</span><span class="p">],</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;overwrite&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">enriched_immigration_table</span><span class="o">.</span><span class="n">write</span><span class="o">.</span><span class="n">parquet</span><span class="p">(</span><span class="n">path</span><span class="o">=</span><span class="s2">&quot;us_visitors.parquet&quot;</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;overwrite&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -15036,7 +15036,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[49]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">temperatures_table</span> <span class="o">=</span> <span class="n">spark</span><span class="o">.</span><span class="n">read</span><span class="o">.</span><span class="n">parquet</span><span class="p">(</span><span class="s2">&quot;temperatures.parquet&quot;</span><span class="p">)</span>
@@ -15049,7 +15049,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[50]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">temperatures_table</span><span class="o">.</span><span class="n">count</span><span class="p">()</span> <span class="o">&gt;</span> <span class="mi">0</span>
@@ -15065,7 +15065,7 @@ only showing top 5 rows
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[50]:</div>
+    <div class="prompt output_prompt">Out[32]:</div>
 
 
 
@@ -15082,7 +15082,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[51]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">temperatures_table</span><span class="o">.</span><span class="n">printSchema</span><span class="p">()</span>
@@ -15123,7 +15123,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[52]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">temperatures_schema_test</span> <span class="o">=</span> <span class="p">[(</span><span class="s2">&quot;city&quot;</span><span class="p">,</span> <span class="n">StringType</span><span class="p">()),</span>
@@ -15149,7 +15149,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[53]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">airports_table</span> <span class="o">=</span> <span class="n">spark</span><span class="o">.</span><span class="n">read</span><span class="o">.</span><span class="n">parquet</span><span class="p">(</span><span class="s2">&quot;airports_in_usa.parquet&quot;</span><span class="p">)</span>
@@ -15162,7 +15162,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">airports_table</span><span class="o">.</span><span class="n">printSchema</span><span class="p">()</span>
@@ -15196,7 +15196,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[55]:</div>
+<div class="prompt input_prompt">In&nbsp;[37]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">airports_table</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
@@ -15237,7 +15237,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[56]:</div>
+<div class="prompt input_prompt">In&nbsp;[38]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">if</span> <span class="n">airports_table</span><span class="o">.</span><span class="n">count</span><span class="p">()</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
@@ -15251,7 +15251,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[57]:</div>
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">airports_schema_test</span> <span class="o">=</span> <span class="p">[(</span><span class="s2">&quot;municipality&quot;</span><span class="p">,</span> <span class="n">StringType</span><span class="p">()),</span>
@@ -15265,7 +15265,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[58]:</div>
+<div class="prompt input_prompt">In&nbsp;[40]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">test</span> <span class="ow">in</span> <span class="n">airports_schema_test</span><span class="p">:</span>
@@ -15282,7 +15282,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[59]:</div>
+<div class="prompt input_prompt">In&nbsp;[41]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">us_visitors_table</span> <span class="o">=</span> <span class="n">spark</span><span class="o">.</span><span class="n">read</span><span class="o">.</span><span class="n">parquet</span><span class="p">(</span><span class="s2">&quot;us_visitors.parquet&quot;</span><span class="p">)</span>
@@ -15295,7 +15295,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[60]:</div>
+<div class="prompt input_prompt">In&nbsp;[42]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">if</span> <span class="n">us_visitors_table</span><span class="o">.</span><span class="n">count</span><span class="p">()</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
@@ -15309,7 +15309,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[61]:</div>
+<div class="prompt input_prompt">In&nbsp;[43]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">us_visitors_table</span><span class="o">.</span><span class="n">printSchema</span><span class="p">()</span>
@@ -15330,6 +15330,8 @@ only showing top 5 rows
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>root
+ |-- arrival_year: integer (nullable = true)
+ |-- arrival_month: integer (nullable = true)
  |-- arrival_date: date (nullable = true)
  |-- iata_code: string (nullable = true)
  |-- first_state_visited: string (nullable = true)
@@ -15338,8 +15340,6 @@ only showing top 5 rows
  |-- country_of_residence: string (nullable = true)
  |-- visa_type: string (nullable = true)
  |-- airport_municipality: string (nullable = true)
- |-- arrival_year: integer (nullable = true)
- |-- arrival_month: integer (nullable = true)
 
 </pre>
 </div>
@@ -15351,7 +15351,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[62]:</div>
+<div class="prompt input_prompt">In&nbsp;[44]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">us_visitors_schema_test</span> <span class="o">=</span> <span class="p">[(</span><span class="s2">&quot;arrival_date&quot;</span><span class="p">,</span> <span class="n">DateType</span><span class="p">()),</span>
@@ -15379,7 +15379,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[63]:</div>
+<div class="prompt input_prompt">In&nbsp;[45]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">demographics_table</span> <span class="o">=</span> <span class="n">spark</span><span class="o">.</span><span class="n">read</span><span class="o">.</span><span class="n">parquet</span><span class="p">(</span><span class="s2">&quot;us_demographics.parquet&quot;</span><span class="p">)</span>
@@ -15392,49 +15392,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[64]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">demographics_table</span><span class="o">.</span><span class="n">printSchema</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>root
- |-- city: string (nullable = true)
- |-- state: string (nullable = true)
- |-- male_population: long (nullable = true)
- |-- female_population: long (nullable = true)
- |-- total_population: long (nullable = true)
- |-- foreign_born: long (nullable = true)
- |-- avg_household_size: integer (nullable = true)
- |-- median_age: float (nullable = true)
- |-- race: string (nullable = true)
- |-- state_code: string (nullable = true)
-
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[65]:</div>
+<div class="prompt input_prompt">In&nbsp;[46]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">if</span> <span class="n">demographics_table</span><span class="o">.</span><span class="n">count</span><span class="p">()</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
@@ -15448,7 +15406,7 @@ only showing top 5 rows
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[66]:</div>
+<div class="prompt input_prompt">In&nbsp;[47]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">demographics_table</span><span class="o">.</span><span class="n">printSchema</span><span class="p">()</span>
@@ -15521,22 +15479,22 @@ Fact tables: temperatures, migrations</p>
 More information about the original dataset of airport codes is available here <a href="https://datahub.io/core/airport-codes#readme">https://datahub.io/core/airport-codes#readme</a></p>
 <p>Columns:</p>
 <ul>
-<li>iata_code: IATA Code of the airport</li>
-<li>municipality: name of jurisdiction where the airport is located</li>
+<li>iata_code (string): IATA Code of the airport</li>
+<li>municipality (string): name of jurisdiction where the airport is located</li>
 </ul>
 <h5 id="us_demographics">us_demographics<a class="anchor-link" href="#us_demographics">&#182;</a></h5><p>This table contains information about the population demographics of cities in the USA based on Census survey data of 2015.
 More information about the original source of dataset can be found here: <a href="https://public.opendatasoft.com/explore/dataset/us-cities-demographics/information/">https://public.opendatasoft.com/explore/dataset/us-cities-demographics/information/</a></p>
 <p>Columns:</p>
 <ul>
-<li>state: Name of state of USA</li>
-<li>state_code: two letter abbreviated state code for the state</li>
-<li>male_population: population count of males</li>
-<li>female_population: population count of females</li>
-<li>total_population: total population of the city</li>
-<li>foreign_born: population count of foreign born residents</li>
-<li>avg_household_size: average household size</li>
-<li>median_age: median age of people</li>
-<li>race: race of the people</li>
+<li>state (string): Name of state of USA</li>
+<li>state_code (string): two letter abbreviated state code for the state</li>
+<li>male_population (long): population count of males</li>
+<li>female_population (long): population count of females</li>
+<li>total_population (long): total population of the city</li>
+<li>foreign_born (long): population count of foreign born residents</li>
+<li>avg_household_size (integer): average household size</li>
+<li>median_age (float): median age of people</li>
+<li>race (string): race of the people</li>
 </ul>
 <h5 id="temperatures">temperatures<a class="anchor-link" href="#temperatures">&#182;</a></h5><p>This table contains information on average temperature of cities around the world on each day measured from years 1750 to 2013.
 More information about the original data source is here: <a href="https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data">https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data</a>
@@ -15565,16 +15523,16 @@ Columns:</p>
 More details about the original data soruce: <a href="https://travel.trade.gov/research/reports/i94/historical/2016.html">https://travel.trade.gov/research/reports/i94/historical/2016.html</a></p>
 <p>Columns:</p>
 <ul>
-<li>arrival_date: date of arrival of visitor</li>
-<li>arrival_year: year of arrival of visitor</li>
-<li>arrival_month: month of arrival of visitor</li>
-<li>country_of_residence: country of residence of visitor</li>
-<li>iata_code: IATA code of airport where the visitor arrived</li>
-<li>first_state_visited: two letter abbreviation of state code to be first visited by visitor</li>
-<li>birth_year: birth year of visitor</li>
-<li>age: age of visitor on arrival to USA</li>
-<li>visa_type: type of visa of visitor</li>
-<li>airport_municipality: jurisdiction where airport is located</li>
+<li>arrival_date (date): date of arrival of visitor</li>
+<li>arrival_year (integer): year of arrival of visitor</li>
+<li>arrival_month (integer): month of arrival of visitor</li>
+<li>country_of_residence (string): country of residence of visitor</li>
+<li>iata_code (string): IATA code of airport where the visitor arrived</li>
+<li>first_state_visited (string): two letter abbreviation of state code to be first visited by visitor</li>
+<li>birth_year (integer): birth year of visitor</li>
+<li>age (integer): age of visitor on arrival to USA</li>
+<li>visa_type (string): type of visa of visitor</li>
+<li>airport_municipality (string): jurisdiction where airport is located</li>
 </ul>
 
 </div>
