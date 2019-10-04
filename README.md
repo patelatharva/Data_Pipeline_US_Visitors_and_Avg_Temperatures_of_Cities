@@ -2,6 +2,4 @@
 
 In this project, I prepared data pipeline to create tables that enable analysis of number and types of visitors to various cities of USA around the year and how does it relate to the historical average temperatures for cities in USA around the year. I used data about visitors at different airports of USA along with historical records of temperature around year for cities in USA. I also used data about airport locations and demographics of cities across USA. I created data pipeline that extracted data from the downloaded datasets, performed necessary filtering and transformations, loaded it into different tables as per data model and saved in Parquet format with appropriate partitions using **Apache Spark**.
 
-You can see the work performed in this project in this notebook: [https://github.com/patelatharva/Data_Pipeline_US_Visitors_and_Avg_Temperatures_of_Cities/blob/master/project.ipynb](https://github.com/patelatharva/Data_Pipeline_US_Visitors_and_Avg_Temperatures_of_Cities/blob/master/project.ipynb)
-
-https://github.com/patelatharva/Data_Pipeline_US_Visitors_and_Avg_Temperatures_of_Cities/blob/master/project.ipynb
+You can see the work performed in this project in this notebook: [https://nbviewer.jupyter.org/github/patelatharva/Data_Pipeline_US_Visitors_and_Avg_Temperatures_of_Cities/blob/master/project.ipynb](https://nbviewer.jupyter.org/github/patelatharva/Data_Pipeline_US_Visitors_and_Avg_Temperatures_of_Cities/blob/master/project.ipynb)
